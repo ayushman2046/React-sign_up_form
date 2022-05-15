@@ -48,7 +48,8 @@ export default function Signup() {
         {Object.keys(formErrors).length === 0 && isSubmit ? (
                 <div className="contain" style={mystyle}><h4>You have signed up succesfully</h4></div>
             ) : 
-            (<pre>{JSON.stringify(formValues, undefined, 2)}</pre>)
+            // (<pre>{JSON.stringify(formValues, undefined, 2)}</pre>)
+            <p></p>
                 }
     <form className="form form" id="createAccount" onSubmit={handleSubmit}>
         <h1 className="form__title"> <b> Create Account</b> </h1>
